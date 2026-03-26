@@ -26,4 +26,8 @@ public class OrdemServicoMapper {
         );
 
     }
+
+    public OrdemServico toEntity(OrdemServicoRequestDto request, Object o) {
+        return null;
+    }
 }
