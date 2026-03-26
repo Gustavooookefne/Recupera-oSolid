@@ -23,6 +23,9 @@ public class OrdemServico {
         this.alunosEscalados = alunosEscalados;
     }
 
+    public OrdemServico(int id, String equipamento, String defeitoRelatado) {
+    }
+
     public int getId() {
         return id;
     }
