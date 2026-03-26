@@ -6,4 +6,7 @@ public record UsuarioRequestDto (
          String nome,
          String tipo
 ){
+    public int id() {
+        return 0;
+    }
 }
