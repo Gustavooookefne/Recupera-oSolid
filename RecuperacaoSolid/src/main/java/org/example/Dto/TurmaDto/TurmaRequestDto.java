@@ -1,4 +1,6 @@
 package org.example.Dto.TurmaDto;
 
-public class TurmaRequestDto {
+public record TurmaRequestDto (
+         String nomeTurma
+){
 }
