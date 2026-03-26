@@ -13,6 +13,9 @@ public class Turma {
         this.alunos = alunos;
     }
 
+    public Turma(Object id, Object nome) {
+    }
+
     public int getId() {
         return id;
     }
