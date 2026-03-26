@@ -1,4 +1,12 @@
 package org.example.Dto.OrdemServicoDto;
 
-public class OrdemServicoResponseDto {
+import java.util.List;
+
+public record OrdemServicoResponseDto (
+        int id,
+        String equipamento,
+        String defeitoRelatado,
+        int professorId,
+        List<Integer> alunosIds
+){
 }

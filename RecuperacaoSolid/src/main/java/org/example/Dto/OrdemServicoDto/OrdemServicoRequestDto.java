@@ -1,4 +1,9 @@
 package org.example.Dto.OrdemServicoDto;
 
-public class OrdemServicoRequestDto {
+public record OrdemServicoRequestDto (
+        String equipamento,
+        String defeitoRelatado,
+        int professorId
+){
+
 }
