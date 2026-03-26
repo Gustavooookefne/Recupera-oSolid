@@ -1,4 +1,7 @@
 package org.example.Dto.ProfessorDto;
 
-public class ProfessorRequestDto {
+public record ProfessorRequestDto (
+         String nome
+){
+
 }
